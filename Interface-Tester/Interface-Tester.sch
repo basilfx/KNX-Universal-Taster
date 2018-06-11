@@ -1,0 +1,473 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5B1D0046
+P 6400 2050
+F 0 "SW8" V 6446 2002 50  0000 R CNN
+F 1 "SW" V 6355 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 2250 6400 2400
+Wire Wire Line
+	6400 1850 6400 1650
+$Comp
+L Connector:Conn_01x03 J3
+U 1 1 5B1D03FC
+P 9100 1400
+F 0 "J3" V 9066 1212 50  0000 R CNN
+F 1 "PWR" V 8975 1212 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9100 1400 50  0001 C CNN
+F 3 "~" H 9100 1400 50  0001 C CNN
+	1    9100 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 1600 9000 1800
+Wire Wire Line
+	9000 1800 8650 1800
+Wire Wire Line
+	8650 1800 8650 2000
+Wire Wire Line
+	9200 1600 9200 1800
+Wire Wire Line
+	9200 1800 9550 1800
+Wire Wire Line
+	9550 1800 9550 2000
+Wire Wire Line
+	9100 1600 9100 2000
+Text Label 9100 2000 1    50   ~ 0
+RAIL
+Text Label 6400 1300 3    50   ~ 0
+RAIL
+$Comp
+L Connector:Conn_01x08 J1
+U 1 1 5B1D0836
+P 9050 2800
+F 0 "J1" V 9267 2746 50  0000 C CNN
+F 1 "INTERFACE" V 9176 2746 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9050 2800 50  0001 C CNN
+F 3 "~" H 9050 2800 50  0001 C CNN
+	1    9050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5B1D09C0
+P 8750 3250
+F 0 "#PWR0101" H 8750 3000 50  0001 C CNN
+F 1 "GND" H 8755 3077 50  0000 C CNN
+F 2 "" H 8750 3250 50  0001 C CNN
+F 3 "" H 8750 3250 50  0001 C CNN
+	1    8750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5B1D09D8
+P 8650 2000
+F 0 "#PWR0102" H 8650 1750 50  0001 C CNN
+F 1 "GND" H 8655 1827 50  0000 C CNN
+F 2 "" H 8650 2000 50  0001 C CNN
+F 3 "" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5B1D0A57
+P 9550 2000
+F 0 "#PWR0103" H 9550 1850 50  0001 C CNN
+F 1 "+3V3" H 9565 2173 50  0000 C CNN
+F 2 "" H 9550 2000 50  0001 C CNN
+F 3 "" H 9550 2000 50  0001 C CNN
+	1    9550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5B1D0A75
+P 9450 3250
+F 0 "#PWR0104" H 9450 3100 50  0001 C CNN
+F 1 "+3V3" H 9465 3423 50  0000 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 3000 8750 3250
+Wire Wire Line
+	8850 3000 8850 3250
+Wire Wire Line
+	8950 3000 8950 3250
+Wire Wire Line
+	9050 3000 9050 3250
+Wire Wire Line
+	9150 3000 9150 3250
+Wire Wire Line
+	9250 3000 9250 3250
+Wire Wire Line
+	9350 3000 9350 3250
+Wire Wire Line
+	9450 3250 9450 3000
+$Comp
+L Connector:Conn_01x04 J2
+U 1 1 5B1D13FA
+P 9050 3950
+F 0 "J2" V 9016 3662 50  0000 R CNN
+F 1 "I2C" V 8925 3662 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9050 3950 50  0001 C CNN
+F 3 "~" H 9050 3950 50  0001 C CNN
+	1    9050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5B1D14E7
+P 8950 4400
+F 0 "#PWR0105" H 8950 4150 50  0001 C CNN
+F 1 "GND" H 8955 4227 50  0000 C CNN
+F 2 "" H 8950 4400 50  0001 C CNN
+F 3 "" H 8950 4400 50  0001 C CNN
+	1    8950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5B1D14FA
+P 9250 4400
+F 0 "#PWR0106" H 9250 4250 50  0001 C CNN
+F 1 "+3V3" H 9265 4573 50  0000 C CNN
+F 2 "" H 9250 4400 50  0001 C CNN
+F 3 "" H 9250 4400 50  0001 C CNN
+	1    9250 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 4150 8950 4400
+Wire Wire Line
+	9250 4150 9250 4400
+Wire Wire Line
+	9050 4150 9050 4400
+Wire Wire Line
+	9150 4150 9150 4400
+$Comp
+L device:LED D6
+U 1 1 5B1D1F6D
+P 6750 2050
+F 0 "D6" V 6695 2128 50  0000 L CNN
+F 1 "LED" V 6786 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 6750 2050 50  0001 C CNN
+F 3 "~" H 6750 2050 50  0001 C CNN
+	1    6750 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2200 6750 2400
+Wire Wire Line
+	6750 2400 6400 2400
+Connection ~ 6400 2400
+Wire Wire Line
+	6400 2400 6400 2750
+Wire Wire Line
+	6750 1900 6750 1650
+Wire Wire Line
+	6750 1650 6400 1650
+Connection ~ 6400 1650
+Wire Wire Line
+	6400 1650 6400 1300
+Text Label 8850 3250 1    50   ~ 0
+IF0
+Text Label 8950 3250 1    50   ~ 0
+IF1
+Text Label 9050 3250 1    50   ~ 0
+IF2
+Text Label 9150 3250 1    50   ~ 0
+IF3
+Text Label 9250 3250 1    50   ~ 0
+IF4
+Text Label 9350 3250 1    50   ~ 0
+IF5
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5B1D4871
+P 5650 2050
+F 0 "SW7" V 5696 2002 50  0000 R CNN
+F 1 "SW" V 5605 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 5650 2250 50  0001 C CNN
+F 3 "" H 5650 2250 50  0001 C CNN
+	1    5650 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 2250 5650 2400
+Wire Wire Line
+	5650 1850 5650 1650
+Text Label 5650 1300 3    50   ~ 0
+RAIL
+$Comp
+L device:LED D5
+U 1 1 5B1D487A
+P 6000 2050
+F 0 "D5" V 5945 2128 50  0000 L CNN
+F 1 "LED" V 6036 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 6000 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+	1    6000 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 2200 6000 2400
+Wire Wire Line
+	6000 2400 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 2400 5650 2750
+Wire Wire Line
+	6000 1900 6000 1650
+Wire Wire Line
+	6000 1650 5650 1650
+Connection ~ 5650 1650
+Wire Wire Line
+	5650 1650 5650 1300
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5B1D5158
+P 4900 2050
+F 0 "SW6" V 4946 2002 50  0000 R CNN
+F 1 "SW" V 4855 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 4900 2250 50  0001 C CNN
+F 3 "" H 4900 2250 50  0001 C CNN
+	1    4900 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 2250 4900 2400
+Wire Wire Line
+	4900 1850 4900 1650
+Text Label 4900 1300 3    50   ~ 0
+RAIL
+$Comp
+L device:LED D4
+U 1 1 5B1D5161
+P 5250 2050
+F 0 "D4" V 5195 2128 50  0000 L CNN
+F 1 "LED" V 5286 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 5250 2050 50  0001 C CNN
+F 3 "~" H 5250 2050 50  0001 C CNN
+	1    5250 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2200 5250 2400
+Wire Wire Line
+	5250 2400 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 2400 4900 2750
+Wire Wire Line
+	5250 1900 5250 1650
+Wire Wire Line
+	5250 1650 4900 1650
+Connection ~ 4900 1650
+Wire Wire Line
+	4900 1650 4900 1300
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5B1D516F
+P 4150 2050
+F 0 "SW5" V 4196 2002 50  0000 R CNN
+F 1 "SW" V 4105 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 4150 2250 50  0001 C CNN
+F 3 "" H 4150 2250 50  0001 C CNN
+	1    4150 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2250 4150 2400
+Wire Wire Line
+	4150 1850 4150 1650
+Text Label 4150 1300 3    50   ~ 0
+RAIL
+$Comp
+L device:LED D3
+U 1 1 5B1D5178
+P 4500 2050
+F 0 "D3" V 4445 2128 50  0000 L CNN
+F 1 "LED" V 4536 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 4500 2050 50  0001 C CNN
+F 3 "~" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2200 4500 2400
+Wire Wire Line
+	4500 2400 4150 2400
+Connection ~ 4150 2400
+Wire Wire Line
+	4150 2400 4150 2750
+Wire Wire Line
+	4500 1900 4500 1650
+Wire Wire Line
+	4500 1650 4150 1650
+Connection ~ 4150 1650
+Wire Wire Line
+	4150 1650 4150 1300
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5B1D657F
+P 3400 2050
+F 0 "SW4" V 3446 2002 50  0000 R CNN
+F 1 "SW" V 3355 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 3400 2250 50  0001 C CNN
+F 3 "" H 3400 2250 50  0001 C CNN
+	1    3400 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2250 3400 2400
+Wire Wire Line
+	3400 1850 3400 1650
+Text Label 3400 1300 3    50   ~ 0
+RAIL
+$Comp
+L device:LED D2
+U 1 1 5B1D6588
+P 3750 2050
+F 0 "D2" V 3695 2128 50  0000 L CNN
+F 1 "LED" V 3786 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 3750 2050 50  0001 C CNN
+F 3 "~" H 3750 2050 50  0001 C CNN
+	1    3750 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2200 3750 2400
+Wire Wire Line
+	3750 2400 3400 2400
+Connection ~ 3400 2400
+Wire Wire Line
+	3400 2400 3400 2750
+Wire Wire Line
+	3750 1900 3750 1650
+Wire Wire Line
+	3750 1650 3400 1650
+Connection ~ 3400 1650
+Wire Wire Line
+	3400 1650 3400 1300
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5B1D6596
+P 2650 2050
+F 0 "SW3" V 2696 2002 50  0000 R CNN
+F 1 "SW" V 2605 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 2650 2250 50  0001 C CNN
+F 3 "" H 2650 2250 50  0001 C CNN
+	1    2650 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 2250 2650 2400
+Wire Wire Line
+	2650 1850 2650 1650
+Text Label 2650 1300 3    50   ~ 0
+RAIL
+$Comp
+L device:LED D1
+U 1 1 5B1D659F
+P 3000 2050
+F 0 "D1" V 2945 2128 50  0000 L CNN
+F 1 "LED" V 3036 2128 50  0000 L CNN
+F 2 "Diodes_SMD:D_0603" H 3000 2050 50  0001 C CNN
+F 3 "~" H 3000 2050 50  0001 C CNN
+	1    3000 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2200 3000 2400
+Wire Wire Line
+	3000 2400 2650 2400
+Connection ~ 2650 2400
+Wire Wire Line
+	2650 2400 2650 2750
+Wire Wire Line
+	3000 1900 3000 1650
+Wire Wire Line
+	3000 1650 2650 1650
+Connection ~ 2650 1650
+Wire Wire Line
+	2650 1650 2650 1300
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5B1DA966
+P 1650 2050
+F 0 "SW2" V 1696 2002 50  0000 R CNN
+F 1 "SW" V 1605 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 1650 2250 50  0001 C CNN
+F 3 "" H 1650 2250 50  0001 C CNN
+	1    1650 2050
+	0    -1   -1   0   
+$EndComp
+Text Label 1650 1300 3    50   ~ 0
+RAIL
+Wire Wire Line
+	1650 2250 1650 2750
+Wire Wire Line
+	1650 1300 1650 1850
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5B1DF4CF
+P 1150 2050
+F 0 "SW1" V 1196 2002 50  0000 R CNN
+F 1 "SW" V 1105 2002 50  0000 R CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 1150 2250 50  0001 C CNN
+F 3 "" H 1150 2250 50  0001 C CNN
+	1    1150 2050
+	0    -1   -1   0   
+$EndComp
+Text Label 1150 1300 3    50   ~ 0
+RAIL
+Wire Wire Line
+	1150 2250 1150 2750
+Wire Wire Line
+	1150 1300 1150 1850
+Text Label 2650 2750 1    50   ~ 0
+IF0
+Text Label 3400 2750 1    50   ~ 0
+IF1
+Text Label 4150 2750 1    50   ~ 0
+IF2
+Text Label 4900 2750 1    50   ~ 0
+IF3
+Text Label 5650 2750 1    50   ~ 0
+IF4
+Text Label 6400 2750 1    50   ~ 0
+IF5
+Text Label 1150 2750 1    50   ~ 0
+SCL
+Text Label 1650 2750 1    50   ~ 0
+SDA
+Text Label 9050 4400 1    50   ~ 0
+SCL
+Text Label 9150 4400 1    50   ~ 0
+SDA
+$EndSCHEMATC

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name onsemi2)(type Legacy)(uri /Users/basilfx/Desktop/RIOT_knx/hardware/Taster/Library/onsemi2.lib)(options "")(descr ""))
+  (lib (name silabs2)(type Legacy)(uri /Users/basilfx/Desktop/RIOT_knx/hardware/Taster/Library/silabs2.lib)(options "")(descr ""))
+  (lib (name macronix2)(type Legacy)(uri /Users/basilfx/Desktop/RIOT_knx/hardware/Taster/Library/macronix2.lib)(options "")(descr ""))
+  (lib (name KNXTransceiverBoard_V1.2)(type Legacy)(uri ${KIPRJMOD}/Library/KNXTransceiverBoard_V1.2.lib)(options "")(descr ""))
+)

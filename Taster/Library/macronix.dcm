@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12401548E4#2A
+D USB Type-C through-hole SMT hybrid receptacle
+K USB Type-C receptacle
+F https://www.amphenolcanada.com/ProductSearch/drawings/AC/12401548E4%232A.pdf
+$ENDCMP
+#
+$CMP BAT-HLD-012-SMT
+D CR1216, CR1225 battery cell holder
+K Coin Cell Battery Holder
+F https://www.linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+$ENDCMP
+#
+$CMP CartConn
+D Gold fingers on a Game Boy cartridge
+$ENDCMP
+#
+$CMP EPM570T100C5N
+D Altera Max II CPLD
+K CPLD
+F https://www.altera.com/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
+$ENDCMP
+#
+$CMP FM28V100-TG
+D FRAM Nonvolatile Memory 128Kx8bit (1Mb)
+K FRAM 128KB 1Mb
+F http://www.cypress.com/?mpn=FM28V100-TG
+$ENDCMP
+#
+$CMP FT234XD
+D FT234XD, USB to serial UART bridge
+K USB serial UART bridge
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
+$ENDCMP
+#
+$CMP M41T62
+D Crystal-less low-power I2C real-time clocks (RTCs) with alarm
+K RTC
+F http://www.st.com/resource/en/datasheet/m41t62.pdf
+$ENDCMP
+#
+$CMP MX29LV640ETTI-70G
+D NOR flash memory 8Mx8bit (64Mb)
+K Flash 8MB 64Mb
+F http://www.macronix.com/Lists/Datasheet/Attachments/4951/MX29GL640E%20T-B,%203V,%2064Mb,%20v1.8.pdf
+$ENDCMP
+#
+$CMP SiT8924AE-73-33N-50.000000
+D 50MHz oscillator
+K 50MHz oscillator
+F https://www.sitime.com/products/datasheets/sit8924/SiT8924-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

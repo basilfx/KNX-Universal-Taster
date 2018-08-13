@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name KNXTransceiverBoard_V1.2)(type Legacy)(uri "$(KIPRJMOD)/Footprints/KNXTransceiverBoard_V1.2.mod")(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri "$(KIPRJMOD)/Footprints/Jumper.pretty")(options "")(descr ""))
+  (lib (name SON127P600X500X80-9N)(type Legacy)(uri /Users/basilfx/Downloads/SON127P600X500X80-9N.mod)(options "")(descr ""))
+  (lib (name PowerSwap)(type KiCad)(uri "$(KIPRJMOD)/Footprints/PowerSwap.pretty")(options "")(descr ""))
+  (lib (name 0_inductor)(type Eagle)(uri "$(KIPRJMOD)/Footprints/0_inductor.lbr")(options "")(descr ""))
+  (lib (name winbond)(type Legacy)(uri "$(KIPRJMOD)/Footprints/winbond.mod")(options "")(descr ""))
+)

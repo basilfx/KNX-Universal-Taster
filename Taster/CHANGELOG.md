@@ -1,7 +1,16 @@
 # Changelog
 
+## v1.2.0
+Released 20 August 2018
+
+Highlights:
+* Added: Resistor between NCN5120 RESET line and other RESET lines.
+* Improved: clearance of KNX connector to ground plane.
+* Changed: migrated schema + PCB to KiCad 5.0.
+* Changed: smaller pads for optional UART.
+
 ## v1.1.0
-Released 24 Juni 2018
+Released 24 June 2018
 
 Highlights:
 * Added: compatibility with NCN5121.
@@ -10,7 +19,7 @@ Highlights:
 * Fixed: reset line.
 
 ## v1.0.0
-Released 11 Juni 2018
+Released 11 June 2018
 
 Highlights:
 * Initial version.

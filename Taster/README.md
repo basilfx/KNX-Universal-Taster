@@ -8,6 +8,9 @@
 * 2 pins for I2C
 * 2 RX/TX pins (without header)
 
+## Pictures
+<img src="https://raw.githubusercontent.com/basilfx/KNX-Taster/master/Taster/Pictures/TopView.png" width="384">
+
 ## Compatibility
 This board is compatible with the [OnSemi NCN5121](http://www.onsemi.com/pub/Collateral/NCN5121-D.PDF) or the [OnSemi NCN5120](http://www.onsemi.com/pub/Collateral/NCN5120-D.PDF).
 
@@ -35,7 +38,7 @@ You can find the schema [here](Taster.pdf).
 | C16     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | C17     | 10µF          | Capacitors_SMD:C_0603                                  |             | 445-9104-1-ND       | 6.3V 0.1R ESR     |
 | C18     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
-| C20     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
+| C19     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | D1      | LED           | LEDs:LED_0603                                          | 2687487     |                     |                   |
 | D2      | D             | Diodes_SMD:D_SMB                                       |             | 1SMA40CAT3GOSCT-ND  |                   |
 | D3      | D_TVS         | Diodes_SMD:D_SMB                                       |             | SS16T3GOSCT-ND      |                   |
@@ -63,6 +66,7 @@ You can find the schema [here](Taster.pdf).
 | R9      | 680           | Resistors_SMD:R_0603                                   |             | MCT0603-680-CFCT-ND |                   |
 | R10     | 0             | Resistors_SMD:R_0603                                   |             | 311-0.0GRCT-ND      |                   |
 | R11     | 0             | Resistors_SMD:R_0603                                   |             | 311-0.0GRCT-ND      |                   |
+| R12     | 0             | Resistors_SMD:R_0603                                   |             | 311-0.0GRCT-ND      |                   |
 | R13     | 0             | Resistors_SMD:R_0603                                   |             | 311-0.0GRCT-ND      |                   |
 | SW1     | PROG          | Buttons_Switches_SMD:SW_SPST_B3U-1000P                 |             | SW1020CT-ND         |                   |
 | U1      | EFM32PG12B500 | Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm           |             | 336-3941-ND         |                   |

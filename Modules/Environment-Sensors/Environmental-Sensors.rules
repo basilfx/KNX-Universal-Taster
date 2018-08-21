@@ -1,6 +1,6 @@
 
-(rules PCB Sensors
-  (snap_angle 
+(rules PCB Environmental-Sensors
+  (snap_angle
     fortyfive_degree
   )
   (autoroute_settings
@@ -40,10 +40,10 @@
     )
     (attach off)
   )
-  (via 
+  (via
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
-  (via 
+  (via
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
   )
   (via_rule
@@ -58,7 +58,7 @@
     (rule
       (width 250.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -69,7 +69,7 @@
     (rule
       (width 250.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )

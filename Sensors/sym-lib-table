@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Bosch2)(type Legacy)(uri ${KIPRJMOD}/Library/Bosch2.lib)(options "")(descr ""))
-)

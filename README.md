@@ -5,8 +5,8 @@ DIY universal taster for the KNX bus.
 This repository contains the following boards.
 
 * [Taster](Taster/README.md) - The main board.
-* [Sensors](Sensors/README.md) - Temperature sensor board that fits inside a Busch Jaeger switch.
-* [Interface-Tester](Interface-Tester/README.md) - support board to evaluate the taster.
+* [Environmental-Sensors](Modules/Environmental-Sensors/README.md) - Environmental sensor board that fits inside a Busch-Jaeger switch.
+* [Interface-Tester](Interface-Tester/README.md) - Testinb board to evaluate the taster.
 
 You can buy the boards from [Aisler.net](https://aisler.net/p/GGKCSYBF), and help me to support the development.
 

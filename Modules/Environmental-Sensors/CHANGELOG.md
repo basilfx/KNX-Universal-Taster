@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.0
+Released 22 August 2018
+
+Highlights:
+* Added: 4.7 µF across VDD and GND.
+* Changed: made thermal pad of CCS811 bit smaller for increased clearance.
+
 ## v1.1.0
 Released 21 August 2018
 

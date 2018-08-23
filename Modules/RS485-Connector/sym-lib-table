@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Texas_Instruments)(type Legacy)(uri ${KIPRJMOD}/Symbols/Texas_Instruments.lib)(options "")(descr ""))
+)

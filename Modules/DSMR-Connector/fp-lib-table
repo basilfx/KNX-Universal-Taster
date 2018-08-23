@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name isolator)(type KiCad)(uri /Users/basilfx/Desktop/Tradfri-Hacking/pcbs/isolator)(options "")(descr ""))
+)

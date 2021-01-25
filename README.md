@@ -29,6 +29,7 @@ I challenged myself to create a version that has more capabilities:
 ## Contents
 You can find the following in this repository:
 
+* [3D prints](3d) - Printable parts, such as an enclosure
 * [PCB designs](pcb) - KiCad designs for the main PCB and extensions
 
 ## Support

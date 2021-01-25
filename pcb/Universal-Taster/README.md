@@ -1,15 +1,23 @@
-# Taster
+# Universal Taster
 
 ## Features
-
-* ARM Cortex M4 CPU with 1MiB of flash and 256KiB of RAM.
+* ARM Cortex M4 CPU with 1 MiB of flash and 256 KiB of RAM
 * Compatible with OnSemi NCN5120 and NCN5121
+* 8 Mbit SPI NOR flash
 * 6 universal GPIO pins
 * 2 pins for I2C
 * 2 RX/TX pins (without header)
+* 30x30x15 mm footprint (including connector)
 
 ## Pictures
-<img src="https://raw.githubusercontent.com/basilfx/KNX-Taster/master/Taster/Pictures/TopView.png" width="384">
+<img src="Pictures/TopView.png" width="384" alt="3D render of board.">
+
+[<img src="Pictures/Image1.jpg" width="128" alt="Image 1 of complete board.">](Pictures/Image1.jpg)
+[<img src="Pictures/Image2.jpg" width="128" alt="Image 2 of complete board.">](Pictures/Image2.jpg)
+[<img src="Pictures/Image3.jpg" width="128" alt="Image 3 of complete board.">](Pictures/Image3.jpg)
+[<img src="Pictures/Image4.jpg" width="128" alt="Image 4 of complete board.">](Pictures/Image4.jpg)
+[<img src="Pictures/Image5.jpg" width="128" alt="Image 5 of complete board.">](Pictures/Image5.jpg)
+[<img src="Pictures/Image6.jpg" width="128" alt="Image 6 of complete board.">](Pictures/Image6.jpg)
 
 ## Compatibility
 This board is compatible with the [OnSemi NCN5121](http://www.onsemi.com/pub/Collateral/NCN5121-D.PDF) or the [OnSemi NCN5120](http://www.onsemi.com/pub/Collateral/NCN5120-D.PDF).
@@ -22,7 +30,7 @@ You can find the schema [here](Taster.pdf).
 |---------|---------------|--------------------------------------------------------|-------------|---------------------|-------------------|
 | C1      | 18pF          | Capacitors_SMD:C_0603                                  | 2821267     |                     |                   |
 | C2      | 18pF          | Capacitors_SMD:C_0603                                  | 2821267     |                     |                   |
-| C3      | 1µF           | Capacitors_SMD:C_0603                                  |             | 587-1437-1-ND       | 35V               |
+| C3      | 1µF           | Capacitors_SMD:C_0603                                  |             | 587-1437-1-ND       | 35 V              |
 | C4      | 20pF          | Capacitors_SMD:C_0603                                  | 2627461     |                     |                   |
 | C5      | 20pF          | Capacitors_SMD:C_0603                                  | 2627461     |                     |                   |
 | C6      | 10pF          | Capacitors_SMD:C_0603                                  | 1414600     |                     |                   |
@@ -30,13 +38,13 @@ You can find the schema [here](Taster.pdf).
 | C8      | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | C9      | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | C10     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
-| C11     | 100µF         | Capacitors_SMD:CP_Elec_6.3x7.7                         |             | 732-8511-1-ND       | 35V               |
-| C12     | 1µF           | Capacitors_SMD:C_0805                                  | 2346944     |                     | 35V 2R ESR        |
+| C11     | 100µF         | Capacitors_SMD:CP_Elec_6.3x7.7                         |             | 732-8511-1-ND       | 35 V              |
+| C12     | 1µF           | Capacitors_SMD:C_0805                                  | 2346944     |                     | 35 V 2R ESR       |
 | C13     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | C14     | 220nF         | Capacitors_SMD:C_0603                                  | 2346906     |                     | 50V               |
 | C15     | 47nF          | Capacitors_SMD:C_0603                                  | 2524870     |                     | 50V               |
 | C16     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
-| C17     | 10µF          | Capacitors_SMD:C_0603                                  |             | 445-9104-1-ND       | 6.3V 0.1R ESR     |
+| C17     | 10µF          | Capacitors_SMD:C_0603                                  |             | 445-9104-1-ND       | 6.3 V 0.1R ESR    |
 | C18     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | C19     | 100nF         | Capacitors_SMD:C_0603                                  | 1833843     |                     |                   |
 | D1      | LED           | LEDs:LED_0603                                          | 2687487     |                     |                   |

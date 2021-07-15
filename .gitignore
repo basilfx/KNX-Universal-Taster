@@ -1,12 +1,17 @@
 # Temporary files
+_autosave-*
+*-save.kicad_pcb
+*-save.pro
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*-cache.lib
-*~
-_autosave-*
+*.kicad_prl
+*.kicad_sch-bak
+*.sch-bak
 *.tmp
+*~
+fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -16,5 +21,5 @@ _autosave-*
 *.ses
 
 # Exported BOM files
-*.xml
 *.csv
+*.xml

@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.1
+Released 15 July 2021
+
+Highlights:
+* Improved: clearance between trace and SCL resistor
+* Fixed: several DRC errors
+
 ## v1.2.0
 Released 20 August 2018
 

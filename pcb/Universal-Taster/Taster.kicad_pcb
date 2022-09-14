@@ -2734,7 +2734,7 @@
       (net 13 GND))
     (pad P+ thru_hole rect (at 0 3.19786 90) (size 2.18186 2.18186) (drill 1.19888) (layers *.Cu *.Mask)
       (net 50 "Net-(D2-Pad2)"))
-    (model /Users/basilfx/Desktop/RIOT_knx/hardware/Taster/3D/knx_klemme.wrl
+    (model ${KIPRJMOD}/3D/knx_klemme.wrl
       (offset (xyz 8 -11.25 11.8))
       (scale (xyz 393.7 393.7 393.7))
       (rotate (xyz 90 0 -90))

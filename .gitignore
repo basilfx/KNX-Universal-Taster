@@ -1,5 +1,6 @@
 # Temporary files
 _autosave-*
+*-backups
 *-save.kicad_pcb
 *-save.pro
 *.000

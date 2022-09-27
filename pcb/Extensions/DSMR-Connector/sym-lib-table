@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name fod8012)(type Legacy)(uri ${KIPRJMOD}/Symbols/fod8012.lib)(options "")(descr ""))
+  (lib (name "fod8012")(type "KiCad")(uri "${KIPRJMOD}/Symbols/fod8012.kicad_sym")(options "")(descr ""))
 )

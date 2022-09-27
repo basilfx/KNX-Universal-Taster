@@ -4,7 +4,7 @@
 Several printed circuit boards have been designed for this project.
 
 ### Core
-* [Universal-Taster](Univeral-Taster/README.md) - The main board.
+* [Universal-Taster](Universal-Taster/README.md) - The main board.
 
 ### Extension modules
 * [Environmental-Sensors](Extensions/Environmental-Sensors) - Environmental

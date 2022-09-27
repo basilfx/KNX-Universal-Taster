@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name PowerSwap)(type KiCad)(uri "$(KIPRJMOD)/Footprints/PowerSwap.pretty")(options "")(descr ""))
-  (lib (name KNX)(type KiCad)(uri ${KIPRJMOD}/Footprints/KNX.pretty)(options "")(descr ""))
+  (lib (name Inductors_SMD2)(type KiCad)(uri "$(KIPRJMOD)/Footprints/Inductors_SMD2.pretty")(options "")(descr ""))
+  (lib (name KNX)(type KiCad)(uri "$(KIPRJMOD)/Footprints/KNX.pretty")(options "")(descr ""))
+  (lib (name Package_USON)(type KiCad)(uri "$(KIPRJMOD)/Footprints/Package_USON.pretty")(options "")(descr ""))
 )

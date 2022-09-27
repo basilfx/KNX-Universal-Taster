@@ -1,6 +1,6 @@
 (sym_lib_table
-  (lib (name onsemi2)(type Legacy)(uri ${KIPRJMOD}/Library/onsemi2.lib)(options "")(descr ""))
-  (lib (name silabs2)(type Legacy)(uri ${KIPRJMOD}/Library/silabs2.lib)(options "")(descr ""))
-  (lib (name macronix2)(type Legacy)(uri ${KIPRJMOD}/Library/macronix2.lib)(options "")(descr ""))
-  (lib (name knx)(type Legacy)(uri ${KIPRJMOD}/Library/knx.lib)(options "")(descr ""))
+  (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/Library/onsemi.kicad_sym")(options "")(descr ""))
+  (lib (name "silabs")(type "KiCad")(uri "${KIPRJMOD}/Library/silabs.kicad_sym")(options "")(descr ""))
+  (lib (name "macronix")(type "KiCad")(uri "${KIPRJMOD}/Library/macronix.kicad_sym")(options "")(descr ""))
+  (lib (name "knx")(type "KiCad")(uri "${KIPRJMOD}/Library/knx.kicad_sym")(options "")(descr ""))
 )

@@ -62,7 +62,7 @@ You can find the schema [here](Taster.pdf).
 | J2      | INTERFACE     | Connectors_JST:JST_SH_BM08B-SRSS-TB_08x1.00mm_Straight |             |                     | Ebay              |
 | J3      | KNX_KLEMME    | KNX:KNX_KLEMME                                         |             | 36-1425-2-ND        | Two needed        |
 | J4      | JTAG          | Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm_SMD   | 2308512     |                     | Contra is 1865334 |
-| L1      | 220µH         | PowerSwap:SRR5028                                      |             | SRR5028-221YCT-ND   |                   |
+| L1      | 220µH         | Inductors_SMD2:L_Bourns-SRR5028                        |             | SRR5028-221YCT-ND   |                   |
 | R1      | 680           | Resistors_SMD:R_0603                                   |             | MCT0603-680-CFCT-ND |                   |
 | R2      | 27            | Resistors_SMD:R_2512                                   | 2426565     |                     |                   |
 | R3      | 1             | Resistors_SMD:R_0603                                   | 2078888     |                     |                   |
@@ -79,7 +79,7 @@ You can find the schema [here](Taster.pdf).
 | SW1     | PROG          | Buttons_Switches_SMD:SW_SPST_B3U-1000P                 |             | SW1020CT-ND         |                   |
 | U1      | EFM32PG12B500 | Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm           |             | 336-3941-ND         |                   |
 | U2      | NCN5121       | Housings_DFN_QFN:QFN-40-1EP_6x6mm_Pitch0.5mm           |             | NCN5121MNTWGOSCT-ND |                   |
-| U3      | MX25R8035F    | PowerSwap:winbond-USON-8(2X3UX)                        |             | 1092-1207-1-ND      |                   |
+| U3      | MX25R8035F    | Package_USON:USON-8_2x3mm_P0.5mm                       |             | 1092-1207-1-ND      |                   |
 | Y1      | 32.768kHz     | Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm               |             | XC2288CT-ND         |                   |
 | Y2      | 40MHz         | Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm               |             | 1253-1120-1-ND      |                   |
 | Y3      | 16MHz         | Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm               |             | 1253-1348-1-ND      |                   |

@@ -1,11 +1,19 @@
 # Changelog
 
+## v1.3.0
+Released 28 September 2022
+
+Highlights:
+* Changed: migrated schema + PCB to KiCad 6.0.
+* Improved: 3D models.
+* Fixed: many ERC and DRC errors.
+
 ## v1.2.1
 Released 15 July 2021
 
 Highlights:
-* Improved: clearance between trace and SCL resistor
-* Fixed: several DRC errors
+* Improved: clearance between trace and SCL resistor.
+* Fixed: several DRC errors.
 
 ## v1.2.0
 Released 20 August 2018

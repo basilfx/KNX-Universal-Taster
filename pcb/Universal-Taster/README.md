@@ -10,8 +10,6 @@
 * 30x30x15 mm footprint (including connector)
 
 ## Pictures
-<img src="Pictures/TopView.png" width="384" alt="3D render of board.">
-
 [<img src="Pictures/Image1.jpg" width="128" alt="Image 1 of complete board.">](Pictures/Image1.jpg)
 [<img src="Pictures/Image2.jpg" width="128" alt="Image 2 of complete board.">](Pictures/Image2.jpg)
 [<img src="Pictures/Image3.jpg" width="128" alt="Image 3 of complete board.">](Pictures/Image3.jpg)
@@ -19,11 +17,16 @@
 [<img src="Pictures/Image5.jpg" width="128" alt="Image 5 of complete board.">](Pictures/Image5.jpg)
 [<img src="Pictures/Image6.jpg" width="128" alt="Image 6 of complete board.">](Pictures/Image6.jpg)
 
-## Compatibility
-This board is compatible with the [OnSemi NCN5121](http://www.onsemi.com/pub/Collateral/NCN5121-D.PDF) or the [OnSemi NCN5120](http://www.onsemi.com/pub/Collateral/NCN5120-D.PDF).
+## Board
+<img src="Pictures/Universal-Taster_Top.svg" width="256" title="Top layer">
+<img src="Pictures/Universal-Taster_Bottom.svg" width="256" title="Bottom layer">
 
 ## Schema
-You can find the schema [here](Taster.pdf).
+You can find the schema [here](Universal-Taster.pdf).
+
+## Compatibility
+This board is compatible with the [OnSemi NCN5121](http://www.onsemi.com/pub/Collateral/NCN5121-D.PDF)
+or the [OnSemi NCN5120](http://www.onsemi.com/pub/Collateral/NCN5120-D.PDF).
 
 ## BoM
 The (interactive) BoM can be found [here](https://basilfx.github.io/KNX-Universal-Taster/pcb/Universal-Taster/BoM/ibom.html).

@@ -9,5 +9,5 @@ Isolated RS485 converter, full and half duplex.
 ## Schema
 You can find the schema [here](RS485-Connector.pdf).
 
-## BOM
-TODO
+## BoM
+The (interactive) BoM can be found [here](https://basilfx.github.io/KNX-Universal-Taster/pcb/Extensions/RS485-Connector/BoM/ibom.html).

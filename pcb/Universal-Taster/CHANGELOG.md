@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.3.1
+Released 03 October 2022
+
+Highlights:
+* Fixed: rotation of KNX connector silkscreen.
+* Fixed: 3D models not included.
+
 ## v1.3.0
 Released 28 September 2022
 

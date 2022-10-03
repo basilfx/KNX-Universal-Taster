@@ -1,7 +1,8 @@
 # Environmental-Sensors
 
-## Pictures
-<img src="Pictures/TopView.png" width="384">
+## Board
+<img src="Pictures/Environmental-Sensors_Top.svg" width="256" title="Top layer">
+<img src="Pictures/Environmental-Sensors_Bottom.svg" width="256" title="Bottom layer">
 
 ## Schema
 You can find the schema [here](Environmental-Sensors.pdf).

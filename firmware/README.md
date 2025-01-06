@@ -7,7 +7,7 @@ Taster.
 This section is work in progress.
 
 ## Versions
-* [v0.3.0](v0.3.0) - first public alpha version
+* [v0.3.0](v0.3.0)
 
 ## Features
 * Designed to work with the Environmental Sensors board
